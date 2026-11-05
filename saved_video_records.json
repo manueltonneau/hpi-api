@@ -1,0 +1,134 @@
+{
+  "provenance": {
+    "description": "Normalized records reconstructed from displayed saved outputs, not raw API responses. Original exact observation time unknown. Video publication dates are not collection timestamps.",
+    "source_file": "youtube_germany_annotated2.ipynb",
+    "source_cells_zero_based": [
+      12,
+      14
+    ],
+    "records": 10,
+    "scope": "Ten videos printed by the supplied notebook. Coverage and original search completeness have not been verified."
+  },
+  "records": [
+    {
+      "video_id": "8ioWqF4k2fo",
+      "title": "Brandmauer weg oder Neuwahlen! PK mit Alice Weidel & Tino Chrupalla - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-19T12:58:56Z",
+      "duration": "PT23M7S",
+      "views": 308065,
+      "likes": 25574,
+      "comments": 2288,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "eYh7yfnluqs",
+      "title": "Interview mit Beatrix von Storch zum Ergebnis des Koalitionsgipfels! - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-13T15:01:09Z",
+      "duration": "PT17M35S",
+      "views": 249565,
+      "likes": 20505,
+      "comments": 1563,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "Uf9nmuTDesk",
+      "title": "Regierungsbefragung mit Lars Klingbeil und Verena Hubertz! - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-20T14:50:16Z",
+      "duration": "PT17M9S",
+      "views": 149674,
+      "likes": 7771,
+      "comments": 1822,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "Hz6SLP23Nv0",
+      "title": "LIVE: Pressekonferenz der AfD-Fraktion - Diese Woche im Bundestag",
+      "published_at": "2026-05-19T08:26:19Z",
+      "duration": "PT1H9M57S",
+      "views": 147981,
+      "likes": 11521,
+      "comments": 1183,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "OU-pD4Tm90w",
+      "title": "BUNDESTAG LIVE - 80. Sitzung - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-21T21:23:45Z",
+      "duration": "PT11H55M1S",
+      "views": 117253,
+      "likes": 2224,
+      "comments": 5,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "HbPnlbTchM8",
+      "title": "Dr. Anna Rathert zum Untersuchungsausschuss Nord-Stream! - AfD-Fraktion im Deutschen Bundestag",
+      "published_at": "2026-05-21T10:47:14Z",
+      "duration": "PT4M32S",
+      "views": 112037,
+      "likes": 7779,
+      "comments": 805,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "5m7dIsDftmQ",
+      "title": "Bernd Baumann knöpft sich die Umfrageverlierer Söder, Maier und Banaszak vor! - AfD-Fraktion",
+      "published_at": "2026-05-19T09:17:11Z",
+      "duration": "PT2M22S",
+      "views": 103756,
+      "likes": 7568,
+      "comments": 299,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "IehYwnYBwZs",
+      "title": "BUNDESTAG LIVE - 79. Sitzung - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-20T18:51:36Z",
+      "duration": "PT6H41M30S",
+      "views": 98033,
+      "likes": 2274,
+      "comments": 25,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "40qjQvDzUII",
+      "title": "Nordstream: Wir fordern einen Untersuchungsausschuss! Markus Frohnmaier im Interview - AfD-Fraktion",
+      "published_at": "2026-05-20T16:00:05Z",
+      "duration": "PT12M53S",
+      "views": 81091,
+      "likes": 7003,
+      "comments": 695,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    },
+    {
+      "video_id": "iwycKryn3aw",
+      "title": "LIVE: Presseerklärung mit Alice Weidel & Tino Chrupalla - AfD-Fraktion im Bundestag",
+      "published_at": "2026-05-19T12:58:22Z",
+      "duration": "PT23M32S",
+      "views": 72894,
+      "likes": 6037,
+      "comments": 612,
+      "channel_id": "UC_dZp8bZipnjntBGLVHm6rw",
+      "source_kind": "saved_notebook_output",
+      "observed_at": null
+    }
+  ]
+}
