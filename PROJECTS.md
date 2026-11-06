@@ -1,35 +1,22 @@
-# Choose a question and a request
+# Choose a project
 
-Start small and describe the records you actually obtain. These are starting points, not mandatory research questions.
+Pick a question, set `PROJECT_KIND`, then edit the matching request dictionary.
 
-## Videos from a channel
+| Template | Edit | Example summary |
+| --- | --- | --- |
+| `channel_videos` | `channelId`, dates, order, size | Mean/median views |
+| `topic_videos` | `q`, dates, order, size | Returned videos per channel |
+| `channel_statistics` | One or more channel `id` values | Reported public videos/subscribers |
+| `video_comments` | `videoId`, order, size | Text length, likes, reply counts |
 
-Possible question: *How do views vary among a small set of videos returned for this channel?*
+## Find a channel ID
 
-Choose `PROJECT_KIND = "channel_videos"`. Edit `channel_video_request`: channel ID, `order`, `maxResults`, optional `q`, `publishedAfter` and `publishedBefore`. Compare the median and mean views or the distribution of likes/comments. Search does not guarantee a complete channel upload history.
+1. Open any YouTube channel; copy its **@handle**.
+2. In the notebook’s channel finder, set `RUN_CHANNEL_DISCOVERY=True` and enter the handle in `CHANNEL_LOOKUP`.
+3. Run the cell. Check the returned title, then copy the ID into your request (`channelId` for video search, `id` for channel statistics).
 
-## Videos about a topic
+You can also search a channel name. Topic searches need no channel ID. AfD is only the supplied example.
 
-Possible question: *Which channels account for the returned videos about this search phrase?*
+[Parameters and official documentation](PARAMETERS.md)
 
-Choose `PROJECT_KIND = "topic_videos"`. Edit `topic_video_request`. Summarise the number of returned videos per channel, their publication dates or their view counts. Relevance ranking and keywords select a particular set; do not treat it as all discussion of the topic.
-
-## Channel-level statistics
-
-Possible question: *How do a few deliberately chosen channels compare in reported public video counts or subscribers?*
-
-Choose `PROJECT_KIND = "channel_statistics"`. Use the optional channel finder, verify identities, and put one or more comma-separated IDs into `channel_statistics_request["id"]`. The `channels` endpoint can return the reported number of **public** videos without downloading all their metadata. Subscriber counts may be hidden or rounded. These are selected channels, not a random sample of creators.
-
-## Comments on a video
-
-Possible question: *What are the text lengths, likes and reply counts of the returned top-level comments?*
-
-Choose `PROJECT_KIND = "video_comments"`. Edit `comment_request`: `videoId`, `order="time"` or `"relevance"`, and `maxResults`. We request plain text and a limited set of fields, omitting author identifiers from the default response. We collect top-level comments only; reply text is not collected. A reply count does not mean you have the replies themselves.
-
-Some videos disable comments. A recent/relevance selection is not representative of all comments or viewers. Text can contain personal information even without author fields; share aggregate summaries rather than identifying quotes.
-
-## Small collection, clear summary
-
-The collector limits video/comment requests to at most two pages of 20 records each. It stops at the budget even if another page exists. Keep request settings comparable when comparing groups.
-
-Prepare: **question → request → one result → one limitation**. A table or simple chart is enough; presenting to the class is optional.
+Keep **20 results per page, at most two pages**. Describe the returned records, not the whole platform. Comments are top-level only; share aggregate summaries rather than identifying quotes.
